@@ -1,0 +1,8 @@
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\bin\Debug\TicketMain.exe.config
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\bin\Debug\TicketMain.exe
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\bin\Debug\TicketMain.pdb
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\obj\Debug\TicketMain.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\obj\Debug\TicketMain.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\obj\Debug\TicketMain.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\obj\Debug\TicketMain.exe
+C:\Users\PC\Desktop\Code\Tickets\TcktMain\TicketMain\TicketMain\obj\Debug\TicketMain.pdb

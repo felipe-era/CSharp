@@ -65,6 +65,6 @@ Tabela Ticket
 ------------
 ***Futuras melhorias***
 
-- Tratamento em campo de CPF para permitir 11 caracteres e validações referentes à seus digitos para verificar sua integridade.
+- Tratamento em campo de CPF para permitir 11 caracteres e validações referentes a seus digitos para verificar sua integridade.
 - Campos de data serão tratados para permitidas datas válidas.
 - Desenvolvimento em 3 camadas (MVC).

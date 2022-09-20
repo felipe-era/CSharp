@@ -1,6 +1,6 @@
-CREATE DATABASE teste77
+CREATE DATABASE TicketGenerator
 
-use teste3;
+use TicketGenerator;
 
 CREATE TABLE funcionario (
  id_func INT PRIMARY KEY IDENTITY,

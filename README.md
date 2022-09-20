@@ -76,8 +76,4 @@ Tabela Ticket
 
 - Tratamento em campo de CPF para permitir 11 caracteres e validações referentes à seus digitos para verificar sua integridade.
 - Campos de data serão tratados para permitidas datas válidas.
-- Clean Code geral, principalmente na parte de ManutencaoFuncionarios(), deve-se usar uma classe centralizando todos seus operandos.
-
-
-
-
+- Desenvolvimento em 3 camadas (MVC).

@@ -8,11 +8,11 @@ Tratado para menu ser acionado com digitos númericos.
 
 ### Funções do Menu<br/>
 
-###### 1.Manutenção de Funcionários<br/>
+ **1.Manutenção de Funcionários**<br/>
   ###### 1.1 Adicionar Novo <br/>
 Adiciona um novo funcionário não permitindo seu cadastro quando o CPF digitado já está cadastrado no banco de dados.
 
-  ###### 1.2 Editar<br />
+   ###### 1.2 Editar<br />
    ###### 1.2.1 Edição por nome<br/>
 Procura no banco de dados o nome digitado e edita para o novo nome informado.<br/>
   ###### 1.2.2 Edição por CPF<br/>
@@ -20,7 +20,7 @@ Procura no banco de dados o CPF digitado e altera para o novo CPF informado. Val
    ###### 1.2.3 Edição de Situação<br/>
 Edita um cadastro para Ativo ou Inativo. 
 
-###### 2.Manuteção de Tickets<br/>
+ **2.Manuteção de Tickets**<br/>
 ###### 2.1 Adicionar Novo<br/>
 Novos Tickets são adicionados por CPF por serem únicos por funcionários.<br/>
 ###### 2.2 Editar<br/>
@@ -31,7 +31,7 @@ Atualiza pelo número do Ticket o funcionário que recebeu um Ticket.
 ###### 2.2.3 Edição de situação
 Ativa ou Inativa um ticket entregue.<br/>
 
-###### 3.Relatórios<br/>
+ **3.Relatórios**<br/>
 ###### 3.1 Total por funcionário<br/>
 Exibe todos os tickets entregue para um determinado funcionário.<br/>
 ###### 3.2 Total por funcionário e período<br/>

@@ -1,0 +1,52 @@
+CREATE DATABASE teste77
+
+use teste3;
+
+CREATE TABLE funcionario (
+ id_func INT PRIMARY KEY IDENTITY,
+ nome VARCHAR (50) NOT NULL,
+ cpf VARCHAR (11) NOT NULL,
+ situacao VARCHAR (1),
+ dt_cad	DATETIME, 
+ dt_alter DATETIME,  
+);
+
+CREATE TABLE ticket (
+ id_ticket SMALLINT PRIMARY KEY IDENTITY,
+ funcionario INT NOT NULL,
+ quantidade INT NOT NULL,
+ situacao VARCHAR (1),
+ dt_entrega DATETIME,  
+ FOREIGN KEY (funcionario) REFERENCES funcionario(id_func)
+);
+
+insert into funcionario (nome, cpf, situacao, dt_cad) values 
+('Luiz Rodrigues Martins', '12345678910', 'A', '01/03/2022 01:10:43.000'),
+('André Correia Alves', '12345678911', 'A', '02/03/2022 02:10:43.000'),
+('Bruna Almeida Martins', '12345678912', 'A', '03/03/2022 03:10:43.000'),
+('Thiago Goncalves Fernandes', '12345678913', 'A', '04/03/2022 04:10:43.000'),
+('Vitoria Ferreira Castro', '12345678914', 'A', '05/03/2022 05:10:43.000'),
+('Maria Cunha Rodrigues', '12345678915', 'A', '06/03/2022 06:10:43.000'),
+('Mateus Silva Fernandes', '12345678916', 'A', '07/03/2022 07:10:43.000'),
+('Enzo Gomes Souza', '12345678917', 'A', '08/03/2022 08:10:43.000'),
+('Emily Souza Silva', '12345678918', 'A', '09/03/2022 09:10:43.000'),
+('André Dias Almeida', '12345678919', 'A', '10/03/2022 10:10:43.000'),
+('Miguel Rodrigues Cavalcanti', '12345678114', 'I', '11/03/2022 11:10:43.000'),
+('Isabella Barros Araujo', '12345678115', 'I', '12/03/2022 12:10:43.000')
+
+insert into ticket (funcionario, quantidade, situacao, dt_entrega) values 
+('1', '2','A', '01/03/2022 01:10:43.000'),
+('2', '4','A', '02/03/2022 02:10:43.000'),
+('3', '6','A', '03/03/2022 03:10:43.000'),
+('4', '2','A', '04/03/2022 04:10:43.000'),
+('5', '1','A', '05/03/2022 05:10:43.000'),
+('6', '1','A', '06/03/2022 06:10:43.000'),
+('6', '1','A', '07/03/2022 07:10:43.000'),
+('7', '2','A', '08/03/2022 08:10:43.000'),
+('7', '4','A', '09/03/2022 09:10:43.000'),
+('8', '2','A', '10/03/2022 10:10:43.000'),
+('9', '3','I', '11/03/2022 11:10:43.000'),
+('10', '1','I', '12/03/2022 12:10:43.000')
+
+
+

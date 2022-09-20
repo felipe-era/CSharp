@@ -55,7 +55,7 @@ A classe Conexão retém as configurações relacionadas ao banco de dados.
 
 A Connection String na linha 17 deve apontar seu servidor.
 
-//("Data Source=PC\\SERVIDOR;Initial Catalog=BANCO DE DADOS;User ID=USUARIO;Password=SENHA"));
+`("Data Source=PC\\SERVIDOR;Initial Catalog=BANCO DE DADOS;User ID=USUARIO;Password=SENHA"));`
 
 
 Tabela Funcionarios

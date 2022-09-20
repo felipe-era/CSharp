@@ -49,6 +49,8 @@ Exibe todos os tickets entregues na data determinada.<br/>
 ------------
 ***Comunicação com banco de dados***
 
+Arquivo SQLQUERY.txt tem a criação de tabelas.
+
 A classe Conexão retém as configurações relacionadas ao banco de dados.
 
 A Connection String na linha 17 deve apontar seu servidor.
